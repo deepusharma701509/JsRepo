@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4664;
+    width: 100%;
+    height: 100vh;
+    
+}   
+.calculator{
+    background-color: #252D44;
+    width: 250px;
+    height: 40vh;
+    border-radius:12px;
+
+}
+
+.input-field{
+    
+padding: 20px 10px;
+}
+.input-field>input{
+    padding: 10px 15px;
+    border-radius:12px;
+    border: 1px solid black;
+    width: 250px;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: end;
+    outline: none;
+}
+.input-field>input:hover{
+    
+    
+}
+
+.btnfirst-field{
+    padding: 30px 10px 10px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+
+}
+.btnsecond-field{
+    padding: 8px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+   
+}
+.btnsecond-field .empty-space {
+    flex-grow: 1;  /* This will take the remaining space and push the last button to the right */
+}
+.btnthird-field{
+    padding:8px 10px;
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+
+}
+.btnfourth-field{
+    padding: 8px 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+    
+
+}
+.btn-class{
+    width: 50px;
+    height: 35px;
+    background-color:#EAE3DB;
+    color: black;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    
+}
+.btn-class[value="DEL"]{
+    background-color: #647299;
+    color: white;
+}
+.btn-class:hover{
+   background-color: lightblue;
+}
+
+
+.OperationBtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.calBtnRes{
+    width: 110px;
+    height: 30px;
+    background-color: #647299;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+
+
+}
+.calBtnEqual{
+    width: 110px;
+    height: 30px;
+    background-color: #D13F30;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+
+
+}
+.calBtnRes:hover{
+    border:white
+}
+.calBtnEqual:hover{
+    border:white;
+}
+
